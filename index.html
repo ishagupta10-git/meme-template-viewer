@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Template Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .meme-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .meme {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            width: 200px;
+            text-align: center;
+        }
+        .meme img {
+            max-width: 100%;
+            height: auto;
+        }
+        h1{
+            font-size: 3em;
+            text-align: center;
+        }
+        #search{
+            width: 40%; max-width: 600px; padding: 4 px; font-size: 1.2em; margin: 10px auto; display: block; 
+        }</style>
+</head>
+<body>
+    <h1>Meme Template Viewer</h1>
+    <input type="text" id="search" placeholder="Search memes...">
+    <div class="meme-container" id="meme-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
